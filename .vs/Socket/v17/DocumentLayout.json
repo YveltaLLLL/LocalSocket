@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{82A712DD-1888-42F2-854A-784F0916E961}|Client\\Client.vcxproj|D:\\Socket\\Client\\Client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{82A712DD-1888-42F2-854A-784F0916E961}|Client\\Client.vcxproj|solutionrelative:Client\\Client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AE4C29-F7AC-4DB5-BE99-9F7367BCD1F9}|Serv\\Serv.vcxproj|D:\\Socket\\Serv\\Serv.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99AE4C29-F7AC-4DB5-BE99-9F7367BCD1F9}|Serv\\Serv.vcxproj|solutionrelative:Serv\\Serv.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,12 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,9 +28,27 @@
               "RelativeDocumentMoniker": "Client\\Client.c",
               "ToolTip": "D:\\Socket\\Client\\Client.c",
               "RelativeToolTip": "Client\\Client.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-07T14:35:14.189Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Serv.c",
+              "DocumentMoniker": "D:\\Socket\\Serv\\Serv.c",
+              "RelativeDocumentMoniker": "Serv\\Serv.c",
+              "ToolTip": "D:\\Socket\\Serv\\Serv.c",
+              "RelativeToolTip": "Serv\\Serv.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-08T17:31:02.889Z",
               "EditorCaption": ""
             }
           ]

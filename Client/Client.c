@@ -12,7 +12,7 @@ int main() {
     struct sockaddr_in target = { 0 };
     target.sin_family = AF_INET;
     target.sin_port = htons(8080);
-    target.sin_addr.s_addr = inet_addr("192.168.1.36");
+    target.sin_addr.s_addr = inet_addr("127.0.0.1");
     connect(cli_sock, (struct sockaddr_in*)&target, sizeof(target));
     while (1) {
         char buffer[1024] = { 0 };
