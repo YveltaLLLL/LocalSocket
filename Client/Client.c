@@ -1,9 +1,8 @@
+#define _WINSOCK_DEPRECATED_NO_WARNINGS
+
 #include <stdio.h>
 #include <WinSock2.h>
 #pragma comment(lib,"ws2_32.lib")
-
-#define _WINSOCK_DEPRECATED_NO_WARNINGS
-
 
 int main() {
     WSADATA wasdate;
@@ -17,7 +16,7 @@ int main() {
     while (1) {
         char buffer[1024] = { 0 };
         printf("«Î ‰»Î£∫");
-        scanf_s("%s", buffer);
+        scanf("%s", buffer);
         send(cli_sock, buffer, strlen(buffer), 0);
         char Rbuffer[1024] = { 0 };
         int ret=recv(cli_sock, Rbuffer, 1024, 0);

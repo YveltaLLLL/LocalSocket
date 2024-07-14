@@ -13,7 +13,7 @@ DWORD WINAPI Thread_f(LPVOID lp) {
         printf("%llu:%s\n", cli_sock, buffer);
         send(cli_sock, buffer, strlen(buffer), 0);
     }
-    printf("%lluÍË³ö\n", cli_sock);
+    printf("%lluÒÑÍË³ö\n", cli_sock);
     closesocket(cli_sock);
 }
 
