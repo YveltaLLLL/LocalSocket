@@ -1,7 +1,4 @@
-﻿  Serv.c
-D:\Socket\Serv\Serv.c(14,32): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
-D:\Socket\Serv\Serv.c(32,42): warning C4133: “函数”: 从“sockaddr_in *”到“const sockaddr *”的类型不兼容
-D:\Socket\Serv\Serv.c(33,12): warning C4047: “==”:“int”与“int (__cdecl *)(SOCKET,const sockaddr *,int)”的间接级别不同
-D:\Socket\Serv\Serv.c(38,12): warning C4047: “==”:“int”与“int (__cdecl *)(SOCKET,int)”的间接级别不同
-D:\Socket\Serv\Serv.c(18,1): warning C4716: “Thread_f”: 必须返回一个值
+﻿  Serv.cpp
+D:\Socket\Serv\Serv.cpp(39,38): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Socket\Serv\Serv.cpp(76,38): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
   Serv.vcxproj -> D:\Socket\x64\Debug\Serv.exe
